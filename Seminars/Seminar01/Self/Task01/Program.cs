@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Проверка");
+﻿Console.WriteLine("Проверка2");
