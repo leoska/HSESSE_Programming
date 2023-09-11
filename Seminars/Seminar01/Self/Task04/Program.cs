@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace Task04
+﻿namespace Task04
 {
     class Program
     {
