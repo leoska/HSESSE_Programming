@@ -2,6 +2,7 @@
 
 class Program
 {
+	// Константы цветов для различных групп текста в консоли
 	const ConsoleColor mainBackgroundColor = ConsoleColor.DarkGray;
 	const ConsoleColor outputBackgroundColor = ConsoleColor.Black;
 	const ConsoleColor mainTextColor = ConsoleColor.DarkBlue;
@@ -9,9 +10,11 @@ class Program
 
 	static void Main(string[] args)
 	{
+		// Смена цвета фона консоли
 		Console.BackgroundColor = mainBackgroundColor;
 		Console.Clear();
 
+		// Запрос данных пользователя и их сохранение
 		Console.ForegroundColor = mainTextColor;
 		Console.Write("Введите вашу фамилию: ");
 		Console.ForegroundColor = inputTextColor;
@@ -27,7 +30,7 @@ class Program
 		Console.ForegroundColor = inputTextColor;
 		string surname = Console.ReadLine();
 
-
+		// Разноцветный вывод данных пользователя (цвета от 10 до 15)
 		Console.BackgroundColor = outputBackgroundColor;
 		
 		string name = secondname + " " + firstname + " " + surname;
