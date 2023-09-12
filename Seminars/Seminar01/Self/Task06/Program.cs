@@ -23,7 +23,7 @@ class Program
 		Console.ForegroundColor = inputTextColor;
 		double b = double.Parse(Console.ReadLine());
 
-        // Подсчёт гипотенузы и вывод формулы и длинны гипотенузы
+        // Подсчёт гипотенузы и вывод её формулы и значения
         Console.ForegroundColor = mainTextColor;
         Console.Write("В п/у треугольнике с катетами a и b гипотенуза с равна ");
         Console.ForegroundColor = formulaTextColor;
