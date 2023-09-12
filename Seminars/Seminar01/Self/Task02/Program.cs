@@ -8,6 +8,5 @@ class Program
         name2 = Console.ReadLine();
         name3 = Console.ReadLine();
         Console.WriteLine($"Фамилия Имя Отчество: {name1 + ' ' +  name2 + ' ' + name3}");
-        Console.ReadLine();
     }
 }

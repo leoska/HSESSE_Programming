@@ -7,6 +7,5 @@ class Program
         Console.Write("Введите свое имя: ");
         name1 = Console.ReadLine();
         Console.WriteLine($"Здравствуйте, {name1}");
-        Console.ReadLine();
     }
 }

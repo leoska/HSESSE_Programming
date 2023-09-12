@@ -10,6 +10,5 @@ class Program
         R = double.Parse(Console.ReadLine());
         Console.WriteLine($"Сила тока: I={U / R}");
         Console.WriteLine($"Потребляемая мощность электрической цепи: P={U*U / R}");
-        Console.ReadLine();
     }
 }

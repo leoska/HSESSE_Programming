@@ -10,6 +10,5 @@ class Program
         Console.WriteLine($"Фамилия: {name1}");
         Console.WriteLine($"Имя: {name2}");
         Console.WriteLine($"Отчество: {name3}");
-        Console.ReadLine();
     }
 }
