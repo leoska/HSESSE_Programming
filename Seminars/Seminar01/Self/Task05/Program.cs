@@ -2,6 +2,7 @@
 
 class Program
 {
+    // Константы цветов для различных групп текста в консоли
 	const ConsoleColor mainTextColor = ConsoleColor.White;
 	const ConsoleColor inputTextColor = ConsoleColor.DarkRed;
     const ConsoleColor formulaTextColor = ConsoleColor.Cyan;
@@ -11,6 +12,7 @@ class Program
 	{
         Console.Clear();
 
+        // Запрос и сохранение ввода напряжения и сопротивления тока от пользователя
 		Console.ForegroundColor = mainTextColor;
 		Console.Write("Введите напряжение тока (U): ");
 		Console.ForegroundColor = inputTextColor;
@@ -21,6 +23,7 @@ class Program
 		Console.ForegroundColor = inputTextColor;
 		double resistance = double.Parse(Console.ReadLine());
 
+        // Подсчёт силы тока и вывод её формулы и значения
         Console.ForegroundColor = mainTextColor;
         Console.Write("Сила тока: ");
         Console.ForegroundColor = formulaTextColor;
@@ -28,6 +31,7 @@ class Program
         Console.ForegroundColor = answerTextColor;
         Console.WriteLine(voltage / resistance);
 
+        // Подсчёт потребляемой мощности электрической цепи и вывод её формулы и значения
         Console.ForegroundColor = mainTextColor;
         Console.Write("Потребляемая мощность электрической цепи: ");
         Console.ForegroundColor = formulaTextColor;
