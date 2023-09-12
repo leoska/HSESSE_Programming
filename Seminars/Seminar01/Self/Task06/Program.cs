@@ -2,6 +2,7 @@
 
 class Program
 {
+    // Константы цветов для различных групп текста в консоли
 	const ConsoleColor mainTextColor = ConsoleColor.White;
 	const ConsoleColor inputTextColor = ConsoleColor.DarkRed;
     const ConsoleColor formulaTextColor = ConsoleColor.Cyan;
@@ -11,6 +12,7 @@ class Program
 	{
         Console.Clear();
 
+        // Запрос и сохранение ввода длинны катетов от пользователя
 		Console.ForegroundColor = mainTextColor;
 		Console.Write("Введите длинну первого катета a = ");
 		Console.ForegroundColor = inputTextColor;
@@ -21,6 +23,7 @@ class Program
 		Console.ForegroundColor = inputTextColor;
 		double b = double.Parse(Console.ReadLine());
 
+        // Подсчёт гипотенузы и вывод формулы и длинны гипотенузы
         Console.ForegroundColor = mainTextColor;
         Console.Write("В п/у треугольнике с катетами a и b гипотенуза с равна ");
         Console.ForegroundColor = formulaTextColor;
