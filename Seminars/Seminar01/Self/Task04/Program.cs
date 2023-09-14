@@ -1,4 +1,5 @@
-﻿namespace Task04
+﻿using System;
+namespace Task04
 {
     class Program
     {
