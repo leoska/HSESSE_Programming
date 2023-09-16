@@ -9,5 +9,7 @@
         Console.WriteLine($"Фамилия: {surname}");
         Console.WriteLine($"Имя: {name}");
         Console.WriteLine($"Отчество: {patronym}");
+
+        Console.ReadKey();
     }
 }
