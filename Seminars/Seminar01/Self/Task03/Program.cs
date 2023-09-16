@@ -2,9 +2,25 @@
 {
     public static void Main(String[] args)
     {
-        Console.Write("Введите имя: ");
-        string? name = Console.ReadLine();
+        while (true)
+        {
+            Console.Write("Введите имя: ");
+            string? name = Console.ReadLine();
 
-        Console.WriteLine($"Здравствуйте, {name}!");
+            if (!name.Any(char.IsDigit))
+            {
+                Console.WriteLine();
+                Console.WriteLine($"Здравствуйте, {name}!");
+
+                Console.ReadKey();
+
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Пожалуйста, введите корректное значение имени (Без цифр)");
+                Console.WriteLine();
+            }
+        }
     }
 }
