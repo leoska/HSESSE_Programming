@@ -6,6 +6,7 @@ namespace Prak3
     {
         static void Main()
         {
+            // Считывание названия месяца, введенного пользователем, из консоли
             Console.Write("Введите название месяца / Enter month name: ");
 
             int monthNum = Console.ReadLine() switch {
@@ -24,6 +25,7 @@ namespace Prak3
                 _ => 0
             };
 
+            // Проверка корректности ввода и вывод результата в консоль
             if (monthNum != 0)
             {
                 Console.WriteLine($"Номер месяца / Month number: {monthNum}");
