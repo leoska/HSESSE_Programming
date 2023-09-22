@@ -19,6 +19,7 @@ class Program
         {
             f = Math.Sin(x * x) + Math.Cos(y);
         }
+
         Console.WriteLine(f);
     }
 }

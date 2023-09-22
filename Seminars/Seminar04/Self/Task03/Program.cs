@@ -22,7 +22,7 @@ class Program
 
         if (operation == "=")
         {
-            Console.WriteLine("Operation Number is incorrect");
+            Console.WriteLine("Operation number is incorrect.");
         }
         else
         {

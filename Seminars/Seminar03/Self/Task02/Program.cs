@@ -4,7 +4,7 @@ class Program
     static void Main()
     {
         double x = Convert.ToDouble(Console.ReadLine());
-        double y = Convert.ToDouble(Console.ReadLine());
+        
 
         if (y > 0 && (x * x + y * y > 1) && (x * x + y * y < 4))
         {
@@ -21,3 +21,4 @@ class Program
         }
     }
 }
+        double y = Convert.ToDouble(Console.ReadLine());

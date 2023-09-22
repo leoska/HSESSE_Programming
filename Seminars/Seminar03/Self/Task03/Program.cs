@@ -12,45 +12,45 @@ class Program
         {
             if (x * x + y * y < 1)
             {
-                Console.WriteLine("Точка внутри заданной области");
+                Console.WriteLine("Точка внутри заданной области.");
             }
             else if (x * x + y * y == 1)
             {
-                Console.WriteLine("Точка лежит на границе области");
+                Console.WriteLine("Точка лежит на границе области.");
             }
             else
             {
-                Console.WriteLine("Точка не попала в область");
+                Console.WriteLine("Точка не попала в область.");
             }    
         }
         else if (y > 0)
         {
             if (x * x + y * y < 4)
             {
-                Console.WriteLine("Точка внутри заданной области");
+                Console.WriteLine("Точка внутри заданной области.");
             }
             else if (x * x + y * y == 4)
             {
-                Console.WriteLine("Точка лежит на границе области");
+                Console.WriteLine("Точка лежит на границе области.");
             }
             else
             {
-                Console.WriteLine("Точка не попала в область");
+                Console.WriteLine("Точка не попала в область.");
             }
         }
         else
         {
             if (-1 < x && x < 1)
             {
-                Console.WriteLine("Точка внутри заданной области");
+                Console.WriteLine("Точка внутри заданной области.");
             }
             else if (-2 <= x && x <= -1 || 1 <= x && x <= 2)
             {
-                Console.WriteLine("Точка лежит на границе области");
+                Console.WriteLine("Точка лежит на границе области.");
             }
             else
             {
-                Console.WriteLine("Точка не попала в область");
+                Console.WriteLine("Точка не попала в область.");
             }
         }
                
