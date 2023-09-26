@@ -8,8 +8,8 @@ class Program
         while (a > 0) {
             if (a % 10 != 0) {
                 System.Console.Write(a % 10);
-                a /= 10;
             }
+            a /= 10;
         }
     }
 }
