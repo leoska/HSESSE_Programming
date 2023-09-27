@@ -10,7 +10,7 @@
             {
                 if (chislo %10 != 0)
                 {
-                    Console.WriteLine(chislo % 10);
+                    Console.Write(chislo % 10);
                 }
                 chislo /= 10;
             }
