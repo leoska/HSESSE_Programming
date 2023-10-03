@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task01", "task01\task01.csproj", "{C1607A71-ECCB-4070-8333-52CD6D94F291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task02", "task02\task02.csproj", "{8F5E6A22-C691-409C-A1B5-702E90740FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task03", "task03\task03.csproj", "{61233CDC-9951-47C5-8D70-DDF4CBDC6EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1607A71-ECCB-4070-8333-52CD6D94F291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1607A71-ECCB-4070-8333-52CD6D94F291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1607A71-ECCB-4070-8333-52CD6D94F291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1607A71-ECCB-4070-8333-52CD6D94F291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5E6A22-C691-409C-A1B5-702E90740FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5E6A22-C691-409C-A1B5-702E90740FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5E6A22-C691-409C-A1B5-702E90740FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5E6A22-C691-409C-A1B5-702E90740FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61233CDC-9951-47C5-8D70-DDF4CBDC6EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61233CDC-9951-47C5-8D70-DDF4CBDC6EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61233CDC-9951-47C5-8D70-DDF4CBDC6EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61233CDC-9951-47C5-8D70-DDF4CBDC6EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDEE7C98-CB1F-4C8F-81AD-C37AE58E4403}
+	EndGlobalSection
+EndGlobal
