@@ -1,0 +1,24 @@
+using System;
+class asd {
+    static void ModOrnament(int N, int M) {
+        if (M <= 0) return;
+        for (int i = 1; i <= N; ++i) {
+            for (int q = 1; q <= M; ++q) {
+                for (int j = 1; j <= i; ++j) {
+                    Console.Write('*');
+                }
+                for (int z = 1; z <= N - i; ++z) {
+                    Console.Write(' ');
+                }
+            }
+
+            Console.WriteLine();
+        }
+    }
+    static void Main(string[] args) {
+        int N = int.Parse(Console.ReadLine());
+        int M = int.Parse(Console.ReadLine());
+
+        ModOrnament(N, M);
+    }
+}
